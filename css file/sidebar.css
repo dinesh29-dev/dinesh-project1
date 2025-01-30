@@ -1,0 +1,580 @@
+.sidebar{
+    position: fixed;
+    left: 0px;
+    top: 56px;
+    bottom: 0px;
+    width: 228px;
+    background-color: white;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+    height: 144px;
+    margin-left: 11px;
+    border-bottom-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(182, 182, 182);
+}
+
+.home-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    margin-top: 12px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.home-icon{
+    display: flex;
+    align-items: center;
+}
+
+.home{
+    height: 26px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.home-text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 22px;
+    font-weight: 500;
+}
+
+.shorts-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.shorts-icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.shorts-icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.shorts-icon{
+    display: flex;
+    align-items: center;
+}
+
+.shorts{
+    height: 29px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.shorts-text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 19px;
+}
+
+.subscriptions-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.subscriptions-icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.subscriptions-icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.subscriptions-icon{
+    display: flex;
+    align-items: center;
+}
+
+.subscriptions{
+    height: 24px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.subscriptions-text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.middel-section{
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+    height: 304px;
+    margin-left: 11px;
+    border-bottom-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(201, 201, 201);
+}
+
+.you-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    margin-top: 12px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.you-icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.you-icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.you-icon{
+    display: flex;
+    align-items: center;
+}
+
+.you{
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 22px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+.gratherthen{
+    margin-left: 11px;
+    font-size: 19px;
+}
+
+.history-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.history-icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.history-icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.history-icon{
+    display: flex;
+    align-items: center;
+}
+
+.history{
+    height: 21px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.history-text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 27px;
+}
+
+.playlists-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.playlists-icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.playlists-icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.playlists-icon{
+    display: flex;
+    align-items: center;
+}
+
+.playlists{
+    height: 27px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.playlists-text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 21px;
+}
+
+.your-videos-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.your-videos-icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.your-videos-icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.your-videos-icon{
+    display: flex;
+    align-items: center;
+}
+
+.your-videos{
+    height: 25px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.your-videos-text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 23px;
+}
+
+.your-courses-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.your-courses-icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.your-courses-icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.your-courses-icon{
+    display: flex;
+    align-items: center;
+}
+
+.your-courses{
+    height: 30px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.your-courses-text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.watch-later-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.watch-later-icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.watch-later-icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.watch-later-icon{
+    display: flex;
+    align-items: center;
+}
+
+.watch-later{
+    height: 21px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.watch-later-text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.liked-videos-icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.liked-videos-icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.liked-videos-icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.liked-videos-icon{
+    display: flex;
+    align-items: center;
+}
+
+.liked-videos{
+    height: 22px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.liked-videos-text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 17px;
+}
+
+.home-icon,
+.shorts-icon,
+.subscriptions-icon,
+.history-icon,
+.playlists-icon,
+.your-videos-icon,
+.your-courses-icon,
+.watch-later-icon,
+.liked-videos-icon,
+.you-icon{
+    position: relative;
+}
+
+.tooltipl{
+    position: absolute;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    background-color: white;
+    bottom: -35px;
+    right: -29px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.home-icon:hover .tooltipl,
+.shorts-icon:hover .tooltipl,
+.subscriptions-icon:hover .tooltipl,
+.history-icon:hover .tooltipl,
+.playlists-icon:hover .tooltipl,
+.your-videos-icon:hover .tooltipl,
+.your-courses-icon:hover .tooltipl,
+.watch-later-icon:hover .tooltipl,
+.liked-videos-icon:hover .tooltipl,
+.you-icon:hover .tooltipl{
+    opacity: 1;
+}
+
+.icon-button{
+    position: relative;
+}
+
+.tooltip{
+    position: absolute;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    background-color: white;
+    top: -20px;
+    right: 0px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+
+.icon-button:hover .tooltip{
+    opacity: 1;
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+    height: 500px;
+    margin-left: 11px;
+    border-bottom-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(199, 199, 199);
+}
+
+.subscripers{
+    margin-top: 19px;
+    margin-left: 13px;
+    margin-bottom: 7px;
+    font-weight: 500;
+
+}
+
+.icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.icon-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.icon-button:active{
+    background-color: rgb(221, 221, 221);
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.channal-profile{
+    height: 25px;
+    display: inline-block;
+    margin-left: 12px;
+    border-radius: 20px;
+}
+
+.text{
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+    height: 500px;
+    margin-left: 11px;
+    border-bottom-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(199, 199, 199);
+}
+
+.subscripers{
+    margin-top: 19px;
+    margin-left: 13px;
+    margin-bottom: 7px;
+    font-weight: 500;
+
+}
+
+.icon-button{
+    height: 40px;
+    margin-left: 1px;
+    width: 206px;
+    padding-left: 0%;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
